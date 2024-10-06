@@ -1,2 +1,5 @@
 # Air-Quality-Forecast-Using-Bayesian-Ridged-Model
-Air Quality Forecast Using Bayesian Ridged Model
+
+**Abstract**
+
+This study maps the air quality based on PM2.5 in China using machine learning algorithms for the prediction of the main pollutants. Through Taiwan’s Environmental Protection Administration dataset, we have pollutant data of 23 parameters from 25 stations and use different algorithms to develop sound models. Six different steps of the workflow are described; the first step is data preprocessing, as a result of which missing values are filled forward, then the data is standardized. We further divide the data set into a training set and a testing set at 80:20. Ensemble, Gaussian Process Regression(GPR), Long Short-Term Memory (LSTM) with HMM, Long Short-Term Memory (LSTM)  and Bayesian Ridge are applied to model and predict the possible concentration of the particulate matter (PM2.5). We consider these models from a performance perspective and use evaluation metrices such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R²) measures. The best model was determined to be the Bayesian Ridge Regression model with BCIS results being higher than their respective actual values, making the model ideal for air quality prediction
